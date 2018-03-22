@@ -8,6 +8,10 @@ class Artist
     @songs = []
     save
   end
+  
+  def self.all
+   @@all
+  end
 
    def add_song(song)
     @songs << song
