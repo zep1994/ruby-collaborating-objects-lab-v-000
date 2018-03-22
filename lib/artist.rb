@@ -9,4 +9,8 @@ class Artist
     save
   end
 
+
+  def save
+    @@all << self
+  end
 end
